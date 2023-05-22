@@ -1,0 +1,88 @@
+/* Write your CSS here */
+.app_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cash_container {
+  background-color: #150b3e;
+  border-radius: 10px;
+  width: 80%;
+  padding-top: 24px;
+  padding-left: 18px;
+  padding-bottom: 8px;
+  padding-right: 18px;
+  max-width: 350px;
+}
+h1 {
+  color: white;
+}
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+}
+.initial {
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.user_container {
+  display: flex;
+}
+.name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-left: 22px;
+  margin-top: 10px;
+}
+.balance_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.span {
+  color: #d4d2db;
+  font-size: 25px;
+  font-weight: 800px;
+  font-family: 'Roboto';
+}
+
+.your_balance {
+  color: #585076;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 800px;
+  margin-top: 6px;
+}
+.balance {
+  color: #585076;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.withdrawal {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 800;
+  margin-top: 16px;
+}
+.choose_rupees {
+  color: #585076;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 800px;
+  margin-top: 6px;
+}
+.denomination_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
